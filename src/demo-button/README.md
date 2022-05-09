@@ -3,7 +3,6 @@
 ### 介绍
 
 DemoButton 是一个示例按钮组件
-<demo-code>./demo/index.vue</demo-code>
 
 ### 引入
 

@@ -1,8 +1,8 @@
-module.exports = {
+export default {
   name: 'mango-ui',
   build: {
     css: {
-      preprocessor: 'sass',
+      preprocessor: 'less',
     },
     site: {
       publicPath: '/mango-ui/',
@@ -11,7 +11,6 @@ module.exports = {
   site: {
     title: 'mango-ui',
     logo: 'https://img.yzcdn.cn/vant/logo.png',
-    hideSimulator: true, // 所有页面都不显示
     nav: [
       {
         title: '开发指南',
@@ -32,10 +31,6 @@ module.exports = {
           {
             path: 'demo-button',
             title: 'DemoButton 按钮',
-          },
-          {
-            path: 'button',
-            title: '按钮',
           },
         ],
       },

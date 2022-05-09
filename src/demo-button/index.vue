@@ -1,12 +1,10 @@
 <template>
-  <button :class="prefixCls">
+  <button class="demo-button">
     <slot />
   </button>
 </template>
 
 <script>
-import { getClsNameSpace } from '../_utils'
-
 export default {
   name: 'demo-button',
 
@@ -17,17 +15,11 @@ export default {
       default: 'primary',
     },
   },
-  data: ()=>({
-    prefixCls: getClsNameSpace("demo-button")
-  }),
-
 };
 </script>
 
-<style lang="scss">
-@import "../design/var/index.scss";
-$prefix-cls: #{$namespace}-demo-button;
-.#{$prefix-cls} {
+<style lang="less">
+.demo-button {
   min-width: 120px;
   color: #fff;
   font-size: 16px;
