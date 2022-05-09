@@ -11,7 +11,7 @@
     "es"
   ],
   "npm": {
-    "tag": "later-v3"
+    "tag": "latest-v3"
   },
   "scripts": {
     "dev": "vant-cli dev",
