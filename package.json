@@ -1,7 +1,7 @@
 {
   "name": "mango-ui",
   "version": "3.0.0",
-  "description": "vue3.0 component library",
+  "description": "UI Components built on Vue3",
   "main": "lib/mango-ui.js",
   "module": "es/index.js",
   "style": "lib/index.css",
@@ -10,6 +10,9 @@
     "lib",
     "es"
   ],
+  "npm": {
+    "tag": "later-v3"
+  },
   "scripts": {
     "dev": "vant-cli dev",
     "lint": "vant-cli lint",
